@@ -14,7 +14,7 @@ API_HASH = getenv("API_HASH")
 BOT_TOKEN = getenv("BOT_TOKEN")
 
 #Put your bot username without @ 
-BOT_USERNAME = getenv("BOT_USERNAME", "TheChampuBot")
+BOT_USERNAME = getenv("BOT_USERNAME", "sarahmuisic_bot")
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
@@ -23,7 +23,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 16000))
 
 EXTRA_PLUGINS = getenv(
     "EXTRA_PLUGINS",
-    "True",
+    "False",
 )
 
 # Fill True if you want to load extra plugins
@@ -36,8 +36,8 @@ EXTRA_PLUGINS_REPO = getenv(
 EXTRA_PLUGINS_FOLDER = getenv("EXTRA_PLUGINS_FOLDER", "plugins")
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID"))
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001699199963"))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1001975396715"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001975396715"))
 
 # Get this value from  on Telegram by /id
 OWNER_ID = int(getenv("OWNER_ID"))
